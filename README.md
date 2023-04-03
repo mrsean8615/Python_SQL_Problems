@@ -1,1 +1,2 @@
-# stock_tickersPY
+# Python and SQL problems
+
