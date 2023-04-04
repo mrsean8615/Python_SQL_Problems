@@ -6,10 +6,10 @@ import sqlite3
 def connect_db():
     try:
         conn = pymssql.connect(
-            host='stairway.usu.edu', 
-            user='bryant_seanpayne', 
-            password='GoAggies!', 
-            database='bryant_seanpayne') 
+            host='', 
+            user='', 
+            password='', 
+            database='') 
         cursor = conn.cursor()
         return cursor, conn
     except:
